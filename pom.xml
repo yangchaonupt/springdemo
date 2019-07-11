@@ -39,6 +39,24 @@
             <artifactId>spring-web</artifactId>
             <version>5.1.8.RELEASE</version>
         </dependency>
+
+        <!-- Drools规则引擎 -->
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-core</artifactId>
+            <version>5.5.0.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-compiler</artifactId>
+            <version>5.5.0.Final</version>
+        </dependency>
+        <!-- lombok,免写get和set -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+        </dependency>
     </dependencies>
 
     <build>
