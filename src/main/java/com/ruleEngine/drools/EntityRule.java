@@ -3,13 +3,14 @@ package com.ruleEngine.drools;
 import lombok.Data;
 
 import java.util.UUID;
+
 @Data
 public class EntityRule {
-    private String username;
+    private String userName;
     private boolean account;
-    private int addtime;
-    private double currentmoney;
-    private double totailaddmoney;
+    private int addTime;
+    private double currentMoney;
+    private double totalAddMoney;
 
     public void getSerialnumber(String username, double currentmoney) {
         System.out.println("Account：" + username + " Balance：￥" + currentmoney);
